@@ -49,7 +49,13 @@ Run `main.py` to start the program.
 
 In this demo, we consider the encoding and decoing of wireless signal amplitude information as:
 
+![Set Pycharm](readme/img1.png)
 
+![Set Pycharm](readme/img2.png)
+
+![Set Pycharm](readme/img3.png)
+
+![Set Pycharm](readme/img4.png)
 
 ---
 
