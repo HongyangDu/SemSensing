@@ -4,7 +4,7 @@ This repository hosts a demonstration of the encoder and decoder algorithm as pr
 
 The paper can be found [Here](https://arxiv.org/abs/2211.12727).
 
-![System Model](readme/img0.png)
+![System Model](readme/img0.jpg)
 
 ---
 
@@ -13,7 +13,7 @@ The paper can be found [Here](https://arxiv.org/abs/2211.12727).
 To create a new conda environment, execute the following command:
 
 ```bash
-conda create --name invsems python==3.7
+conda create --name invsems python==3.8
 ```
 
 ## ⚡Activate Environment
@@ -29,8 +29,17 @@ conda activate invsems
 The following packages can be installed using pip:
 
 ```bash
-pip install 
+pip install numpy
+pip install scipy
+pip install scikit-image
+pip install torch
+pip install torchvision
+pip install opencv-python
+pip install tqdm
 ```
+Please pay attention to the torch version, according to your CUDA version. Refer to [here](https://pytorch.org/get-started/locally/).
+
+![Set Pycharm](readme/setpycharm.png)
 
 ## 🏃‍♀️ Run the Program
 
