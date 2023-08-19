@@ -1,5 +1,5 @@
 clc;clear;
-load scene01_10_28.13
+load scene01_2_13.73
 load ../Recode_AmN.mat
 
 Ammax = 1203.844;
@@ -18,9 +18,9 @@ for j = 1:length(x_ori(1,1,:))
 end
 % Am_rx_rec = smoothdata(Am_rx_rec,2,'sgolay',50);
 %% For Recover
-for i = 1:length(x_ori(1,1,:)) % 时刻
+for i = 1:length(x_ori(1,1,:)) %
     Am_rx_rec(1,:,i) = Recode_AmN(:,i);
-    for j = 1:5 % 天线
+    for j = 1:5 %
         rxtemp1 = Am_rx_rec(j,:,i)+Am_rx_rec(j+1,:,i);
         rxtemp2 = Am_rx_rec(j+1,:,i)+Am_rx_rec(j+2,:,i);
         Am_rx_rec(j+1,:,i) = rxtemp1;
@@ -28,9 +28,9 @@ for i = 1:length(x_ori(1,1,:)) % 时刻
     Am_rx_rec(7,:,i) = Am_rx_rec(6,:,i)+Am_rx_rec(7,:,i);
 end
 
-for i = 1:length(x_ori(1,1,:)) % 时刻
+for i = 1:length(x_ori(1,1,:)) %
     Am_rx_ori(1,:,i) = Recode_AmN(:,i);
-    for j = 1:5 % 天线
+    for j = 1:5 %
         rxtemp1 = Am_rx_ori(j,:,i)+Am_rx_ori(j+1,:,i);
         rxtemp2 = Am_rx_ori(j+1,:,i)+Am_rx_ori(j+2,:,i);
         Am_rx_ori(j+1,:,i) = rxtemp1;
@@ -55,7 +55,7 @@ xlabel('Subcarrier');
 zlabel('Magnitude');
 view(50,30)
 set(gca,'FontSize',sizef,'Fontname','times new Roman');
-
+title('Original Signal')
 %% Rec Plot
 figure
 temprec = Am_rx_rec(:,:,chi);
@@ -68,3 +68,4 @@ xlabel('Subcarrier');
 zlabel('Magnitude');
 view(50,30)
 set(gca,'FontSize',sizef,'Fontname','times new Roman');
+title('Recovered Signal')
