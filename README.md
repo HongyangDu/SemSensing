@@ -1,16 +1,46 @@
 # Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding
 
-This repository contains the code accompanying the paper "Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding" by Hongyang Du, Jiacheng Wang, Dusit Niyato, Jiawen Kang, Zehui Xiong, Junshan Zhang, Xuemin (Sherman) Shen, accepted by IEEE JSAC.
+This repository hosts a demonstration of the encoder and decoder algorithm as presented in the paper "Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding" by Hongyang Du, Jiacheng Wang, Dusit Niyato, Jiawen Kang, Zehui Xiong, Junshan Zhang, Xuemin (Sherman) Shen, accepted by IEEE JSAC.
 
-The paper can be found at [ArXiv](https://arxiv.org/abs/2211.12727).
+The paper can be found [Here](https://arxiv.org/abs/2211.12727).
+
+![System Model](readme/img0.png)
 
 ---
 
-## Content
+## 🔧 Environment Setup
 
-We are currently working on a comprehensive tutorial for the code and will update the repository as soon as it's ready.
+To create a new conda environment, execute the following command:
 
-Please stay tuned for updates!
+```bash
+conda create --name invsems python==3.7
+```
+
+## ⚡Activate Environment
+
+Activate the created environment with:
+
+```bash
+conda activate invsems
+```
+
+## 📦 Install Required Packages
+
+The following packages can be installed using pip:
+
+```bash
+pip install 
+```
+
+## 🏃‍♀️ Run the Program
+
+Run `main.py` to start the program.
+
+## 🔍 Check the results
+
+In this demo, we consider the encoding and decoing of wireless signal amplitude information as:
+
+
 
 ---
 
