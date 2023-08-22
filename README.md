@@ -39,9 +39,12 @@ pip install tqdm
 ```
 Please pay attention to the torch version, according to your CUDA version. Refer to [here](https://pytorch.org/get-started/locally/).
 
-![Set Pycharm](readme/setpycharm.png)
 
 ## 🏃‍♀️ Run the Program
+
+Set the created env as the runing env:
+
+![Set Pycharm](readme/setpycharm.png)
 
 Run `main.py` to start the program.
 
@@ -49,13 +52,17 @@ Run `main.py` to start the program.
 
 In this demo, we consider the encoding and decoing of wireless signal amplitude information as:
 
+With the decoding process going, the results will be recorded:
 ![Set Pycharm](readme/img1.png)
 
 ![Set Pycharm](readme/img2.png)
 
+After 2 steps, the result is not good:
+![Set Pycharm](readme/img4.png)
+
+After 13 steps, the result is quite good:
 ![Set Pycharm](readme/img3.png)
 
-![Set Pycharm](readme/img4.png)
 
 ---
 
