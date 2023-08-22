@@ -77,3 +77,17 @@ After 16 decoding steps, the result is quite good:
   publisher={IEEE}
 }
 ```
+
+---
+
+## 📚 Acknowledgement
+
+As we claimed in our paper, this repository used the codes in the following papers:
+
+```bash
+PnP-DIP: https://github.com/mengziyi64/CASSI-Self-Supervised
+Deep Image Priors: https://github.com/zhaodongsun/pnp_dip
+LRS-PnP-DIP: https://github.com/shuoli0708/LRS-PnP-DIP
+```
+
+Please consider to cite these papers if their codes are used in your research.
