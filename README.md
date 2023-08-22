@@ -57,10 +57,10 @@ With the decoding process going, the results will be recorded:
 
 ![Set Pycharm](readme/img2.png)
 
-After 2 steps, the result is not good:
+After 2 decoding steps, the result is not good:
 ![Set Pycharm](readme/img4.png)
 
-After 13 steps, the result is quite good:
+After 16 decoding steps, the result is quite good:
 ![Set Pycharm](readme/img3.png)
 
 
