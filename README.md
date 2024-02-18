@@ -1,4 +1,4 @@
-# Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding
+# [Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding](https://hongyangdu.github.io/SemSensing/)
 
 This repository hosts a demonstration of the encoder and decoder algorithm as presented in the paper "Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding" by Hongyang Du, Jiacheng Wang, Dusit Niyato, Jiawen Kang, Zehui Xiong, Junshan Zhang, Xuemin (Sherman) Shen, accepted by IEEE JSAC.
 
