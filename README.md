@@ -42,9 +42,7 @@ Please pay attention to the torch version, according to your CUDA version. Refer
 
 ## 🏃‍♀️ Run the Program
 
-Set the created env as the runing env:
-
-![Set Pycharm](readme/setpycharm.png)
+Set the created env as the runing env.
 
 Run `main.py` to start the program.
 
